@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank</string>
+    <string name="pic3">pic3</string>
+    <string name="pic2">pic2</string>
+</resources>
