@@ -1,5 +1,4 @@
 package vn.edu.usth.usthweather;
-
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -57,25 +56,28 @@ public class ForecastFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    @Override
+    /*@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        //View v = inflater.inflate(R.layout.fragment_forecast, container, false);
-        LinearLayout ll = new LinearLayout(getActivity());
-        ll.setBackgroundColor(0x80FF0000);
-        ll.setOrientation(LinearLayout.VERTICAL);
+        View v = inflater.inflate(R.layout.fragment_forecast, container, false);
+        LinearLayout lo = new LinearLayout(getActivity());
+        v.setBackgroundColor(0x80FF0000);
+        lo.setBackgroundColor(0x80FF0000);
+        lo.setOrientation(LinearLayout.VERTICAL);
 
-        TextView Monday = new TextView(getActivity());
-        Monday.setText("Monday is gonna be a rainy day");
-        ImageView rainy = new ImageView(getActivity());
-        rainy.setImageResource(R.drawable.rainny);
-        ll.addView(Monday);
-        ll.addView(rainy);
-        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
-
-
+        TextView Thursday = new TextView(getActivity());
+        Thursday.setText("Thursday is boring (´。＿。｀)");
+        ImageView WetLittleCat = new ImageView(getActivity());
+        WetLittleCat.setImageResource(R.drawable.wetlittlecat);
+        lo.addView(Thursday);
+        lo.addView(WetLittleCat);
+    }*/
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState)
+    {
+        View view = inflater.inflate(R.layout.fragment_forecast,null);
         return view;
-
     }
 }
