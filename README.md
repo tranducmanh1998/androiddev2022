@@ -1,6 +1,6 @@
 USTH ICT 2022 Android Application Development
 =====================================================
-
+ 
 Students are expected to:
 
 * Fork this repository to your github account
